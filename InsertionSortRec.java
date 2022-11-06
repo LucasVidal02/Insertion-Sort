@@ -1,5 +1,5 @@
 public class InsertionSortRec {
-    public void insertionSortRecursivo(int arr[], int n){
+    public void insertionSortRecursive(int arr[], int n){
 
         //caso base
         if(n <= 1){
@@ -7,7 +7,7 @@ public class InsertionSortRec {
         }
 
         //ordenar os primeiros n-1 elementos
-        insertionSortRecursivo(arr, n-1);
+        insertionSortRecursive(arr, n-1);
 
         //inserir o último elemento na posição correta
         int ult = arr[n-1];
